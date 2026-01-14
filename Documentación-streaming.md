@@ -1,5 +1,5 @@
 <h1 align="center">Documentación Streaming</h1>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/servicios%20de%20streaming.png" alt="servicios_streaming"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/servicios-de-streaming.png" alt="servicios_streaming"></p>
 <br>
 <p><b>Nombre: </b>Israel Moreno Ballesta</p>
 <p><b>Curso: </b>2ºASIR</p>
