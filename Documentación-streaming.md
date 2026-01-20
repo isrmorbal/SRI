@@ -9,16 +9,14 @@
 # ÍNDICE
 
 - [Introducción](#introducción)
-- [Práctica audio](#práctica-audio)
-  - [Radio online](#radio-online)
+- [Práctica: radio online](#práctica-radio-online)
 - [Práctica vídeo](#práctica-vídeo)
 
 ## Introducción
 
 Servicios de streaming son sistemas que permiten transmitir audio y vídeo por Internet sin descargar el archivo completo. Funcionan enviando el contenido en tiempo real mediante protocolos especializados y servidores dedicados. Son esenciales para reproducir música, películas y emisiones en directo desde cualquier dispositivo, adaptándose a la velocidad de conexión del usuario.
 
-## Práctica audio
-### Radio online
+## Práctica: radio online
 
 Instalamos Icecast 2 en una máquina Ubuntu.
 
