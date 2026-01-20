@@ -9,18 +9,21 @@
 # ÍNDICE
 
 - [Introducción](#introducción)
-- [Escenario práctico 1](#escenario-práctico-1)
-- [Escenario práctico 2](#escenario-práctico-2)
-- [Escenario práctico 3](#escenario-práctico-3)
-- [Escenario práctico 4](#escenario-práctico-4)
+- [Práctica: radio online](#práctica-radio-online)
+- [Práctica vídeo](#práctica-vídeo)
 
 
 ## Introducción
 
-## Escenario Práctico 1
+Servicios de streaming son sistemas que permiten transmitir audio y vídeo por Internet sin descargar el archivo completo. Funcionan enviando el contenido en tiempo real mediante protocolos especializados y servidores dedicados. Son esenciales para reproducir música, películas y emisiones en directo desde cualquier dispositivo, adaptándose a la velocidad de conexión del usuario.
 
-## Escenario Práctico 2
+## Práctica: radio online
 
-## Escenario Práctico 3
+Instalamos Icecast 2 en una máquina ubuntu.
 
-## Escenario Práctico 4
+```javascript
+apt update
+apt install icecast2
+```
+
+## Práctica vídeo
