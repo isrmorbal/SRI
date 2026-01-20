@@ -1,5 +1,5 @@
 <h1 align="center">Documentación Streaming</h1>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/servicios-de-streaming.png" alt="servicios_streaming"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/servicios-de-streaming.png"></p>
 <br>
 <p><b>Nombre: </b>Israel Moreno Ballesta</p>
 <p><b>Curso: </b>2ºASIR</p>
@@ -11,6 +11,7 @@
 - [Introducción](#introducción)
 - [Práctica: radio online](#práctica-radio-online)
 - [Práctica vídeo](#práctica-vídeo)
+- [Anexo](#anexo)
 
 ## Introducción
 
@@ -36,4 +37,10 @@ apt update
 apt install mixxx
 ```
 
+Una vez tenemos instalada la aplicacón, la ejecutamos, vamos a opciones -> preferencias y en emisión en vivo ponemos lo de la siguiente imagen. ([Ver imagen](https://github.com/isrmorbal/SRI/blob/main/img/configuracion-emision-en-vivo.png))
+
 ## Práctica vídeo
+
+## Anexo
+
+
