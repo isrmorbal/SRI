@@ -21,7 +21,7 @@ Servicios de streaming son sistemas que permiten transmitir audio y vídeo por I
 
 Instalamos Icecast 2 en una máquina ubuntu.
 
-```javascript
+```bash
 apt update
 apt install icecast2
 ```
