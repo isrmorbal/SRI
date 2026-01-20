@@ -8,10 +8,10 @@
 
 # ÍNDICE
 
-- [Introducción](#introduccion)
-- [Práctica audio](#practica-audio)
+- [Introducción](#introducción)
+- [Práctica audio](#práctica-audio)
   - [Radio online](#radio-online)
-- [Práctica vídeo](#practica-video)
+- [Práctica vídeo](#práctica-vídeo)
 
 ## Introducción
 
