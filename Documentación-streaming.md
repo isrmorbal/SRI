@@ -36,14 +36,17 @@ add-apt-repository ppa:mixxx/mixxx
 apt update
 apt install mixxx
 ```
-<a name="inicio-pasos"></a>
 
+<a name="paso-1"></a>
 Una vez tenemos instalada la aplicación, la ejecutamos, vamos a **Opciones → Preferencias** y en **Emisión en vivo** configuramos los parámetros necesarios tomando como referencia la imagen del anexo. [Ver imagen](#configuración-emisión-en-vivo)
 
+<a name="paso-2"></a>
 Una vez hecho esto, le damos a aplicar y a aceptar, insertamos una música y le damos al botón que pone **ON AIR**. [Ver imagen](#emitir-en-vivo)
 
+<a name="paso-3"></a>
 Esperamos a que el botón se ponga en verde que significará que ya estamos emitiendo y le damos al **Play** para que la música comience. [Ver imagen](#comprobación-emisión-en-vivo)
 
+<a name="paso-4"></a>
 Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimos la dirección correspondiente, que en mi caso es `192.168.1.58:8000/israel`. [Ver imagen](#comprobación-emisión-en-vivo)
 
 ## Práctica vídeo
@@ -54,22 +57,22 @@ Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/configuracion-emision-en-vivo.png"></p>
 
-[Volver arriba](#inicio-pasos)
+[Volver](#paso-1)
 
 ### Emitir en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/insertar-musica-iniciar-emision.png"></p>
 
-[Volver arriba](#inicio-pasos)
+[Volver](#paso-2)
 
 ### Comprobación emisión en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/emision-iniciada-reproducir-musica.png"></p>
 
-[Volver arriba](#inicio-pasos)
+[Volver](#paso-3)
 
 ### Comprobación
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion.png"></p>
 
-[Volver arriba](#inicio-pasos)
+[Volver](#paso-4)
