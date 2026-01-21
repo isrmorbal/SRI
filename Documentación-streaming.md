@@ -53,19 +53,23 @@ Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimo
 ### Configuración emisión en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/configuracion-emision-en-vivo.png"></p>
+
 [Volver arriba](#inicio-pasos)
 
 ### Emitir en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/insertar-musica-iniciar-emision.png"></p>
+
 [Volver arriba](#inicio-pasos)
 
 ### Comprobación emisión en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/emision-iniciada-reproducir-musica.png"></p>
+
 [Volver arriba](#inicio-pasos)
 
 ### Comprobación
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion.png"></p>
+
 [Volver arriba](#inicio-pasos)
