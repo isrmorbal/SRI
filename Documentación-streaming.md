@@ -36,14 +36,15 @@ add-apt-repository ppa:mixxx/mixxx
 apt update
 apt install mixxx
 ```
+<a name="inicio-pasos"></a>
 
 Una vez tenemos instalada la aplicación, la ejecutamos, vamos a **Opciones → Preferencias** y en **Emisión en vivo** configuramos los parámetros necesarios tomando como referencia la imagen del anexo. [Ver imagen](#configuración-emisión-en-vivo)
 
-Una vez hecho esto, le damos a aplicar y a aceptar, insertamos una música y le damos al botón que pone **ON AIR**, esperamos a que el botón se ponga en verde que significará que ya estamos emitiendo y le damos al **Play** para que la música comience. [Ver imagen](#emitir-en-vivo)
+Una vez hecho esto, le damos a aplicar y a aceptar, insertamos una música y le damos al botón que pone **ON AIR**. [Ver imagen](#emitir-en-vivo)
 
-[Ver imágenes](#comprobación-emisión-en-vivo)
+Esperamos a que el botón se ponga en verde que significará que ya estamos emitiendo y le damos al **Play** para que la música comience. [Ver imagen](#comprobación-emisión-en-vivo)
 
-Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimos la dirección correspondiente, que en mi caso es `192.168.1.58:8000/israel`.
+Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimos la dirección correspondiente, que en mi caso es `192.168.1.58:8000/israel`. [Ver imagen](#comprobación-emisión-en-vivo)
 
 ## Práctica vídeo
 
@@ -52,12 +53,19 @@ Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimo
 ### Configuración emisión en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/configuracion-emision-en-vivo.png"></p>
+[Volver arriba](#inicio-pasos)
 
 ### Emitir en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/insertar-musica-iniciar-emision.png"></p>
+[Volver arriba](#inicio-pasos)
 
 ### Comprobación emisión en vivo
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/emision-iniciada-reproducir-musica.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion5.png"></p>
+[Volver arriba](#inicio-pasos)
+
+### Comprobación
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion.png"></p>
+[Volver arriba](#inicio-pasos)
