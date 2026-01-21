@@ -19,11 +19,11 @@ Servicios de streaming son sistemas que permiten transmitir audio y vídeo por I
 
 ## Práctica: radio online
 
-Instalamos Icecast 2 en una máquina Ubuntu.
+Instalamos Icecast 2 en una máquina Ubuntu que hará de servidor.
 
 Primero haremos un update para que el sistema actualice la lista de paquetes disponibles, y después ejecutaremos el comando para instalar Icecast 2.
 
-```bash
+```
 apt update
 apt install icecast2
 ```
@@ -31,7 +31,7 @@ En otra máquina Ubuntu vamos a instalar la aplicación Mixxx.
 
 Para ello primero añadimos los repositorios, después hacemos un update para que el sistema actualice la lista de paquetes disponibles, y después instalamos la aplicación.
 
-```bash
+```
 add-apt-repository ppa:mixxx/mixxx
 apt update
 apt install mixxx
@@ -44,10 +44,21 @@ Una vez tenemos instalada la aplicación, la ejecutamos, vamos a **Opciones → 
 Una vez hecho esto, le damos a aplicar y a aceptar, insertamos una música y le damos al botón que pone **ON AIR**. [Ver imagen](#emitir-en-vivo)
 
 <a name="paso-3"></a>
-Esperamos a que el botón se ponga en verde que significará que ya estamos emitiendo y le damos al **Play** para que la música comience. [Ver imagen](#comprobación-emisión-en-vivo)
+Esperamos a que el botón **ON AIR** se ponga en verde que significará que ya estamos emitiendo y le damos al **Play** para que la música comience. [Ver imagen](#comprobación-emisión-en-vivo)
 
 <a name="paso-4"></a>
-Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimos la dirección correspondiente, que en mi caso es `192.168.1.58:8000/israel`. [Ver imagen](#comprobación-emisión-en-vivo)
+Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimos la dirección correspondiente, que en mi caso es `192.168.1.58:8000/israel`, para comprobar que la emisión se está realizando correctamente. [Ver imagen](#comprobación-desde-el-navegador)
+
+<a name="paso-5"></a>
+Y ahora vamos a hacerlo desde la aplicación VLC.
+
+Instalamos la aplicación.
+
+```
+apt install vlc
+```
+
+Una vez instalada, abrimos la aplicación, vamos a **Medio → Abrir ubicación de red** ponemos la dirección `http://192.168.1.58:8000/israel` y le damos a reproducir. [Ver imágenes](#comprobación-desde-vlc)
 
 ## Práctica vídeo
 
@@ -71,8 +82,16 @@ Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimo
 
 [Volver](#paso-3)
 
-### Comprobación
+### Comprobación desde el navegador
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion.png"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-navegador.png"></p>
 
 [Volver](#paso-4)
+
+### Comprobación desde VLC
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/conectar-en-vlc.png"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/url-vlc.png"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-vlc.png"></p>
+
+[Volver](#paso-5)
