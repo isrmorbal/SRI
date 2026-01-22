@@ -1,5 +1,5 @@
 <h1 align="center">Documentación Streaming</h1>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/servicios-de-streaming.png"></p>
+<p align="center"><img src="img/servicios-de-streaming.png"></p>
 <br>
 <p><b>Nombre: </b>Israel Moreno Ballesta</p>
 <p><b>Curso: </b>2ºASIR</p>
@@ -60,6 +60,10 @@ apt install vlc
 
 Una vez instalada, abrimos la aplicación, vamos a **Medio → Abrir ubicación de red** ponemos la dirección `http://192.168.1.58:8000/israel` y le damos a reproducir. [Ver imágenes](#comprobación-desde-vlc)
 
+<a name="paso-6"></a>
+
+Ahora vamos a acceder a la radio de un compañero tanto desde el navegador como desde VLC. [Ver imágenes](#acceso-a-un-compañero)
+
 ## Práctica vídeo
 
 ## Anexo
@@ -95,3 +99,10 @@ Una vez instalada, abrimos la aplicación, vamos a **Medio → Abrir ubicación 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-vlc.png"></p>
 
 [Volver](#paso-5)
+
+### Acceso a un compañero
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/.png"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/.png"></p>
+
+[Volver](#paso-6)
