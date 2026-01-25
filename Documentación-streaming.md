@@ -224,13 +224,13 @@ ffmpeg -i big-buck-bunny.mp4 -s 1920x1080 -b:v 2M -c:a aac -b:a 128k high_1080p_
 
 [Volver](#paso-10)
 
-### Simulacion de streaming Low
+### Simulación de streaming Low
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/simulacion-low.png"></p>
 
 [Volver](#paso-11)
 
-### Simulacion de streaming High
+### Simulación de streaming High
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/simulacion-high.png"></p>
 
