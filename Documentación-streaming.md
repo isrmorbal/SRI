@@ -114,14 +114,14 @@ A continuación vamos a realizar un cambio de códecs y compararlos.
 
 <a name="paso-9"></a>
 
-Creamos el fichero H.264 con un bitrate de 2 Mbps. [Ver imagen](#fichero-h264-con-bitrate-de-2-mbps)
+Creamos el fichero H.264 con un bitrate de 2Mbps. [Ver imagen](#fichero-h264-con-bitrate-de-2mbps)
 ```
 ffmpeg -i big-buck-bunny.mp4 -c:v libx264 -b:v 2M -c:a copy h264_2mbps.mp4
 ```
 
 <a name="paso-10"></a>
 
-Creamos el fichero H.265 con un bitrate de 2 Mbps. [Ver imagen](#fichero-h265-con-bitrate-de-2-mbps)
+Creamos el fichero H.265 con un bitrate de 2Mbps. [Ver imagen](#fichero-h265-con-bitrate-de-2mbps)
 ```
 ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy h265_2mbps.mp4
 ```
@@ -133,6 +133,24 @@ ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy h265_2mbps.mp4
 > - Si ambos tienen el mismo bitrate (2 Mbps), ¿pesan lo mismo los archivos finales?
 >
 > No, el tamaño final no es exactamente igual. Aunque el bitrate es el mismo, cada códec organiza y comprime los datos de forma distinta, por lo que siempre hay pequeñas diferencias en el peso del archivo.
+
+<a name="paso-11"></a>
+
+Y por último vamos a hacer una simulación de streaming con diferentes tipos de fichero.
+
+Primero vamos a hacer una simulación **Low (móvil)** con **resolución de 240p** y un **bitrate de 400k** [Ver imagen](#simulacion-de-streaming-low)
+
+```
+ffmpeg -i big-buck-bunny.mp4 -s 426x240 -b:v 400k -c:a aac -b:a 64k low_240p_400k.mp4
+```
+
+<a name="paso-12"></a>
+
+Y después vamos a hacer una simulación **High (fibra)** con **resolución de 1080p** y un **bitrate de 2Mbps** [Ver imagen](#simulacion-de-streaming-high)
+
+```
+ffmpeg -i big-buck-bunny.mp4 -s 1920x1080 -b:v 2M -c:a aac -b:a 128k high_1080p_2mbps.mp4
+```
 
 ## Anexo
 
@@ -194,14 +212,26 @@ ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy h265_2mbps.mp4
 
 [Volver](#paso-8)
 
-### Fichero H.264 con bitrate de 2 Mbps
+### Fichero H.264 con bitrate de 2Mbps
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/fichero-h.264-2mbps.png"></p>
 
 [Volver](#paso-9)
 
-### Fichero H.265 con bitrate de 2 Mbps
+### Fichero H.265 con bitrate de 2Mbps
 
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/fichero-h.265-2mbps.png"></p>
 
 [Volver](#paso-10)
+
+### Simulacion de streaming Low
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/simulacion-low.png"></p>
+
+[Volver](#paso-11)
+
+### Simulacion de streaming High
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/simulacion-high.png"></p>
+
+[Volver](#paso-12)
