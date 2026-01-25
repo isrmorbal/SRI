@@ -66,6 +66,45 @@ Ahora vamos a acceder a la radio de un compañero tanto desde el navegador como 
 
 ## Práctica vídeo
 
+Instalamos FFmpeg para poder manipular y analizar archivos de vídeo.
+
+```
+apt install ffmpeg
+```
+
+Nos descargamos un vídeo de prueba y ejecutamos el siguiente comando para ver la información técnica del archivo.
+
+```
+ffprobe -v error -show_streams big-buck-bunny.mp4
+```
+
+Podremos localizar parámetros como los siguientes.
+
+- **Códec de vídeo:** h264
+- **Resolución:** 1920x1080
+- **Framerate:** 24 fps
+- **Bitrate de vídeo:** 5.86 Mbps
+- **Códec de audio:** AAC
+- **Frecuencia de muestreo:** 48 kHz
+- **Número de canales:** 5.1 (6 canales)
+- **Duración total:** 30 segundos
+
+<a name="paso-7"></a>
+
+En la imagen se ha usado una versión filtrada del comando para mostrar solo los campos relevantes. [Ver imagen](#información-obtenida-con-ffprobe)
+
+Ahora vamos a hacer un cambio de contenedor de .mp4 a .mkv.
+
+```
+ffmpeg -i big-buck-bunny.mp4 -c:v copy -c:a copy big-buck-bunny.mkv
+```
+
+Con las opciones `-c:v copy -c:a copy` le indicamos que se copien los flujos de vídeo y audio sin recodificarlos, cambiando únicamente el contenedor de MP4 a MKV.
+
+a) ¿Ha cambiado el tamaño de forma significativa?
+
+b) ¿Ha habido carga de CPU? ¿Ha tardado mucho?
+
 ## Anexo
 
 ### Configuración emisión en vivo
@@ -103,11 +142,19 @@ Ahora vamos a acceder a la radio de un compañero tanto desde el navegador como 
 ### Acceso a un compañero
 
 #### Navegador
+
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-navegador-compañero.png"></p>
 
 #### VLC
+
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/conectar-en-vlc.png"></p>
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/url-vlc-compañero.png"></p>
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-vlc-compañero.png"></p>
 
 [Volver](#paso-6)
+
+### Información obtenida con ffprobe
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/informacion-ffprobe.png"></p>
+
+[Volver](#paso-7)
