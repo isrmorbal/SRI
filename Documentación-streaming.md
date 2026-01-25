@@ -92,17 +92,30 @@ Podremos localizar parámetros como los siguientes.
 
 En la imagen se ha usado una versión filtrada del comando para mostrar solo los campos relevantes. [Ver imagen](#información-obtenida-con-ffprobe)
 
-Ahora vamos a hacer un cambio de contenedor de .mp4 a .mkv.
+<a name="paso-8"></a>
+
+Ahora vamos a hacer un cambio de contenedor de MP4 a MKV.
 
 ```
 ffmpeg -i big-buck-bunny.mp4 -c:v copy -c:a copy big-buck-bunny.mkv
 ```
 
-Con las opciones `-c:v copy -c:a copy` le indicamos que se copien los flujos de vídeo y audio sin recodificarlos, cambiando únicamente el contenedor de MP4 a MKV.
+Con las opciones `-c:v copy -c:a copy` le indicamos que se copien los flujos de vídeo y audio sin recodificarlos, cambiando únicamente el contenedor de MP4 a MKV. [Ver imagen](#cambio-de-contenedor-de-mp4-a-mkv)
 
-a) ¿Ha cambiado el tamaño de forma significativa?
+> **a) ¿Ha cambiado el tamaño de forma significativa?**
+>
+>No, el tamaño del archivo no cambia significativamente porque no se recodifica nada. Solo se cambia el contenedor de MP4 a MKV, y eso añade o quita unos pocos KB como mucho.
 
-b) ¿Ha habido carga de CPU? ¿Ha tardado mucho?
+> **b) ¿Ha habido carga de CPU? ¿Ha tardado mucho?**
+>
+>No, no ha habido prácticamente carga de CPU porque no se realiza ninguna recodificación. El proceso es casi inmediato, ya que FFmpeg solo copia los streams al nuevo contenedor.
+
+A continuación vamos a realizar un cambio de códecs y compararlos.
+
+Creamos el fichero H.264 con un bitrate de 2 Mbps.
+```
+ffmpeg -i big-buck-bunny.mp4 -c:v libx264 -b:v 2M -c:a copy h264_2mbps.mp4
+```
 
 ## Anexo
 
@@ -157,3 +170,9 @@ b) ¿Ha habido carga de CPU? ¿Ha tardado mucho?
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/informacion-ffprobe.png"></p>
 
 [Volver](#paso-7)
+
+### Cambio de contenedor de MP4 a MKV
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/cambio-contenedor.png"></p>
+
+[Volver](#paso-8)
