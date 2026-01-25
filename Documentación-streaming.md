@@ -71,6 +71,7 @@ Instalamos FFmpeg para poder manipular y analizar archivos de vídeo.
 ```
 apt install ffmpeg
 ```
+<a name="paso-7"></a>
 
 Nos descargamos un vídeo de prueba y ejecutamos el siguiente comando para ver la información técnica del archivo.
 
@@ -88,8 +89,6 @@ Podremos localizar parámetros como los siguientes.
 - **Frecuencia de muestreo:** 48 kHz
 - **Número de canales:** 5.1 (6 canales)
 - **Duración total:** 30 segundos
-
-<a name="paso-7"></a>
 
 En la imagen se ha usado una versión filtrada del comando para mostrar solo los campos relevantes. [Ver imagen](#información-obtenida-con-ffprobe)
 
