@@ -112,10 +112,27 @@ Con las opciones `-c:v copy -c:a copy` le indicamos que se copien los flujos de 
 
 A continuación vamos a realizar un cambio de códecs y compararlos.
 
-Creamos el fichero H.264 con un bitrate de 2 Mbps.
+<a name="paso-9"></a>
+
+Creamos el fichero H.264 con un bitrate de 2 Mbps. [Ver imagen](#fichero-h264-con-bitrate-de-2-mbps)
 ```
 ffmpeg -i big-buck-bunny.mp4 -c:v libx264 -b:v 2M -c:a copy h264_2mbps.mp4
 ```
+
+<a name="paso-10"></a>
+
+Creamos el fichero H.265 con un bitrate de 2 Mbps. [Ver imagen](#fichero-h265-con-bitrate-de-2-mbps)
+```
+ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy h265_2mbps.mp4
+```
+
+> - ¿Cuál de los dos presenta más "artefactos" (cuadraditos)?
+>
+> El vídeo codificado en H.264 muestra más artefactos en escenas con mucho movimiento. Esto ocurre porque H.264 es menos eficiente que H.265 a la hora de comprimir zonas complejas manteniendo el detalle.
+
+> - Si ambos tienen el mismo bitrate (2 Mbps), ¿pesan lo mismo los archivos finales?
+>
+> No, el tamaño final no es exactamente igual. Aunque el bitrate es el mismo, cada códec organiza y comprime los datos de forma distinta, por lo que siempre hay pequeñas diferencias en el peso del archivo.
 
 ## Anexo
 
@@ -176,3 +193,15 @@ ffmpeg -i big-buck-bunny.mp4 -c:v libx264 -b:v 2M -c:a copy h264_2mbps.mp4
 <p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/cambio-contenedor.png"></p>
 
 [Volver](#paso-8)
+
+### Fichero H.264 con bitrate de 2 Mbps
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/fichero-h.264-2mbps.png"></p>
+
+[Volver](#paso-9)
+
+### Fichero H.265 con bitrate de 2 Mbps
+
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/fichero-h.265-2mbps.png"></p>
+
+[Volver](#paso-10)
