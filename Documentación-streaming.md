@@ -102,7 +102,12 @@ Ahora vamos a acceder a la radio de un compañero tanto desde el navegador como 
 
 ### Acceso a un compañero
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/.png"></p>
+#### Navegador
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-navegador-compañero.png"></p>
+
+#### VLC
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/conectar-en-vlc.png"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/url-vlc-compañero.png"></p>
+<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-vlc-compañero.png"></p>
 
 [Volver](#paso-6)
