@@ -166,33 +166,33 @@ ffmpeg -i big-buck-bunny.mp4 -s 1920x1080 -b:v 2M -c:a aac -b:a 128k high_1080p_
 
 ### Configuración emisión en vivo
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/configuracion-emision-en-vivo.png"></p>
+<p align="center"><img src="img/configuracion-emision-en-vivo.png"></p>
 
 [Volver](#paso-1)
 
 ### Emitir en vivo
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/insertar-musica-iniciar-emision.png"></p>
+<p align="center"><img src="img/insertar-musica-iniciar-emision.png"></p>
 
 [Volver](#paso-2)
 
 ### Comprobación emisión en vivo
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/emision-iniciada-reproducir-musica.png"></p>
+<p align="center"><img src="img/emision-iniciada-reproducir-musica.png"></p>
 
 [Volver](#paso-3)
 
 ### Comprobación desde el navegador
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-navegador.png"></p>
+<p align="center"><img src="img/comprobacion-navegador.png"></p>
 
 [Volver](#paso-4)
 
 ### Comprobación desde VLC
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/conectar-en-vlc.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/url-vlc.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-vlc.png"></p>
+<p align="center"><img src="img/conectar-en-vlc.png"></p>
+<p align="center"><img src="img/url-vlc.png"></p>
+<p align="center"><img src="img/comprobacion-vlc.png"></p>
 
 [Volver](#paso-5)
 
@@ -200,50 +200,50 @@ ffmpeg -i big-buck-bunny.mp4 -s 1920x1080 -b:v 2M -c:a aac -b:a 128k high_1080p_
 
 #### Navegador
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-navegador-compañero.png"></p>
+<p align="center"><img src="img/comprobacion-navegador-compañero.png"></p>
 
 #### VLC
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/conectar-en-vlc.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/url-vlc-compañero.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comprobacion-vlc-compañero.png"></p>
+<p align="center"><img src="img/conectar-en-vlc.png"></p>
+<p align="center"><img src="img/url-vlc-compañero.png"></p>
+<p align="center"><img src="img/comprobacion-vlc-compañero.png"></p>
 
 [Volver](#paso-6)
 
 ### Información obtenida con ffprobe
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/informacion-ffprobe.png"></p>
+<p align="center"><img src="img/informacion-ffprobe.png"></p>
 
 [Volver](#paso-7)
 
 ### Cambio de contenedor de MP4 a MKV
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/cambio-contenedor.png"></p>
+<p align="center"><img src="img/cambio-contenedor.png"></p>
 
 [Volver](#paso-8)
 
 ### Fichero H.264 con bitrate de 2Mbps
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/fichero-h.264-2mbps.png"></p>
+<p align="center"><img src="img/fichero-h.264-2mbps.png"></p>
 
 [Volver](#paso-9)
 
 ### Fichero H.265 con bitrate de 2Mbps
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/fichero-h.265-2mbps.png"></p>
+<p align="center"><img src="img/fichero-h.265-2mbps.png"></p>
 
 [Volver](#paso-10)
 
 ### Simulación de streaming Low
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comando-simulacion-low.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/simulacion-low.png"></p>
+<p align="center"><img src="img/comando-simulacion-low.png"></p>
+<p align="center"><img src="img/simulacion-low.png"></p>
 
 [Volver](#paso-11)
 
 ### Simulación de streaming High
 
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/comando-simulacion-high.png"></p>
-<p align="center"><img src="https://github.com/isrmorbal/SRI/blob/main/img/simulacion-high.png"></p>
+<p align="center"><img src="img/comando-simulacion-high.png"></p>
+<p align="center"><img src="img/simulacion-high.png"></p>
 
 [Volver](#paso-12)
