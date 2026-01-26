@@ -126,11 +126,11 @@ Creamos el fichero H.265 con un bitrate de 2Mbps. [Ver imagen](#fichero-h265-con
 ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy h265_2mbps.mp4
 ```
 
-> - ¿Cuál de los dos presenta más "artefactos" (cuadraditos)?
+> - **¿Cuál de los dos presenta más "artefactos" (cuadraditos)?**
 >
 > El vídeo codificado en H.264 muestra más artefactos en escenas con mucho movimiento. Esto ocurre porque H.264 es menos eficiente que H.265 a la hora de comprimir zonas complejas manteniendo el detalle.
 
-> - Si ambos tienen el mismo bitrate (2 Mbps), ¿pesan lo mismo los archivos finales?
+> - **Si ambos tienen el mismo bitrate (2 Mbps), ¿pesan lo mismo los archivos finales?**
 >
 > No, el tamaño final no es exactamente igual. Aunque el bitrate es el mismo, cada códec organiza y comprime los datos de forma distinta, por lo que siempre hay pequeñas diferencias en el peso del archivo.
 
@@ -151,6 +151,16 @@ Y después vamos a hacer una simulación **High (fibra)** con **resolución de 1
 ```
 ffmpeg -i big-buck-bunny.mp4 -s 1920x1080 -b:v 2M -c:a aac -b:a 128k high_1080p_2mbps.mp4
 ```
+
+### Preguntas finales: 
+
+> - **Almacenamiento: Si tu servidor tiene un disco de 500 GB, ¿cuántas horas de vídeo del perfil "HD" (2 Mbps) podrías alojar?**
+>
+> Primero pasamos los 500 GB a gigabits (500 × 8 = 4000 Gb) y después a megabits (4000 × 1000 = 4.000.000 Mb). Lo dividimos entre 2 Mbps y obtenemos 2.000.000 segundos de vídeo, que equivalen aproximadamente a 555 horas. 
+
+> - **Red: Tienes una línea de 100 Mbps simétricos. ¿Cuántos usuarios podrían ver el perfil "Móvil" (400 kbps) simultáneamente antes de saturar el 80% de la línea?**
+>
+> Primero calculamos el 80% de la línea (100 × 0,8 = 80 Mbps) y después convertimos los 400 kbps del perfil móvil a Mbps (400 ÷ 1000 = 0,4 Mbps). Dividimos los 80 Mbps disponibles entre 0,4 Mbps por usuario y obtenemos un total de 200 usuarios antes de alcanzar el 80% de uso de la conexión.
 
 ## Anexo
 
