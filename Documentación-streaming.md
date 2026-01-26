@@ -138,7 +138,7 @@ ffmpeg -i big-buck-bunny.mp4 -c:v libx265 -b:v 2M -c:a copy h265_2mbps.mp4
 
 Y por último vamos a hacer una simulación de streaming con diferentes tipos de fichero.
 
-Primero vamos a hacer una simulación **Low (móvil)** con **resolución de 240p** y un **bitrate de 400k** [Ver imagen](#simulacion-de-streaming-low)
+Primero vamos a hacer una simulación **Low (móvil)** con **resolución de 240p** y un **bitrate de 400k** [Ver imagen](#simulación-de-streaming-low)
 
 ```
 ffmpeg -i big-buck-bunny.mp4 -s 426x240 -b:v 400k -c:a aac -b:a 64k low_240p_400k.mp4
@@ -146,7 +146,7 @@ ffmpeg -i big-buck-bunny.mp4 -s 426x240 -b:v 400k -c:a aac -b:a 64k low_240p_400
 
 <a name="paso-12"></a>
 
-Y después vamos a hacer una simulación **High (fibra)** con **resolución de 1080p** y un **bitrate de 2Mbps** [Ver imagen](#simulacion-de-streaming-high)
+Y después vamos a hacer una simulación **High (fibra)** con **resolución de 1080p** y un **bitrate de 2Mbps** [Ver imagen](#simulación-de-streaming-high)
 
 ```
 ffmpeg -i big-buck-bunny.mp4 -s 1920x1080 -b:v 2M -c:a aac -b:a 128k high_1080p_2mbps.mp4
