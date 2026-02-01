@@ -104,11 +104,11 @@ Con las opciones `-c:v copy -c:a copy` le indicamos que se copien los flujos de 
 
 > **a) ¿Ha cambiado el tamaño de forma significativa?**
 >
->No, el tamaño del archivo no cambia significativamente porque no se recodifica nada. Solo se cambia el contenedor de MP4 a MKV, y eso añade o quita unos pocos KB como mucho.
+> No, el tamaño del archivo no cambia significativamente porque no se recodifica nada. Solo se cambia el contenedor de MP4 a MKV, y eso añade o quita unos pocos KB como mucho.
 
 > **b) ¿Ha habido carga de CPU? ¿Ha tardado mucho?**
 >
->No, no ha habido prácticamente carga de CPU porque no se realiza ninguna recodificación. El proceso es casi inmediato, ya que FFmpeg solo copia los streams al nuevo contenedor.
+> No, no ha habido prácticamente carga de CPU porque no se realiza ninguna recodificación. El proceso es casi inmediato, ya que FFmpeg solo copia los streams al nuevo contenedor.
 
 A continuación vamos a realizar un cambio de códecs y compararlos.
 
