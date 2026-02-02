@@ -11,7 +11,7 @@
 - [Introducción](#introducción)
 - [Práctica: radio online](#práctica-radio-online)
   - [Instalación Icecast 2](#instalación-icescast-2) 
-  - [VLC](#aplicacion-vlc)
+  - [VLC](#aplicación-vlc)
 - [Práctica vídeo](#práctica-vídeo)
 - [Anexo](#anexo)
 
