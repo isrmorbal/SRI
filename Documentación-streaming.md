@@ -10,7 +10,8 @@
 
 - [Introducción](#introducción)
 - [Práctica: radio online](#práctica-radio-online)
-  - [VLC](#aplicacion-anexo)
+  - [Instalación Icecast 2](#instalación-icescast-2) 
+  - [VLC](#aplicacion-vlc)
 - [Práctica vídeo](#práctica-vídeo)
 - [Anexo](#anexo)
 
@@ -19,6 +20,8 @@
 Servicios de streaming son sistemas que permiten transmitir audio y vídeo por Internet sin descargar el archivo completo. Funcionan enviando el contenido en tiempo real mediante protocolos especializados y servidores dedicados. Son esenciales para reproducir música, películas y emisiones en directo desde cualquier dispositivo, adaptándose a la velocidad de conexión del usuario.
 
 ## Práctica: radio online
+
+### Instalación Icecast 2
 
 Instalamos Icecast 2 en una máquina Ubuntu que hará de servidor.
 
@@ -52,7 +55,7 @@ Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimo
 
 <a name="paso-5"></a>
 
-## Aplicación VLC
+### Aplicación VLC
 
 Y ahora vamos a hacerlo desde la aplicación VLC.
 
