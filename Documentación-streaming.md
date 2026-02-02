@@ -14,7 +14,8 @@
   - [Mixxx](#mixxx)
   - [VLC](#vlc)
 - [Práctica vídeo](#práctica-vídeo)
-- [Preguntas finales](#preguntas-finales)
+  - [FFmpeg](#ffmpeg) 
+  - [Preguntas finales](#preguntas-finales)
 - [Anexo](#anexo)
 
 ## Introducción
@@ -77,6 +78,8 @@ Una vez instalada, abrimos la aplicación, vamos a **Medio → Abrir ubicación 
 Ahora vamos a acceder a la radio de un compañero tanto desde el navegador como desde VLC. [Ver imágenes](#acceso-a-un-compañero)
 
 ## Práctica vídeo
+
+### FFmpeg
 
 Instalamos FFmpeg para poder manipular y analizar archivos de vídeo.
 
