@@ -10,6 +10,7 @@
 
 - [Introducción](#introducción)
 - [Práctica: radio online](#práctica-radio-online)
+  - [VLC](#aplicacion-anexo)
 - [Práctica vídeo](#práctica-vídeo)
 - [Anexo](#anexo)
 
@@ -50,6 +51,9 @@ Esperamos a que el botón **ON AIR** se ponga en verde que significará que ya e
 Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimos la dirección correspondiente, que en mi caso es `192.168.1.58:8000/israel`, para comprobar que la emisión se está realizando correctamente. [Ver imagen](#comprobación-desde-el-navegador)
 
 <a name="paso-5"></a>
+
+## Aplicación VLC
+
 Y ahora vamos a hacerlo desde la aplicación VLC.
 
 Instalamos la aplicación.
