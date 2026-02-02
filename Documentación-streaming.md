@@ -10,7 +10,7 @@
 
 - [Introducción](#introducción)
 - [Práctica: radio online](#práctica-radio-online)
-  - [Icecast 2](#icescast-2)
+  - [Icecast 2](#icecast-2)
   - [Mixxx](#mixxx)
   - [VLC](#vlc)
 - [Práctica vídeo](#práctica-vídeo)
