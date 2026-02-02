@@ -35,6 +35,8 @@ apt update
 apt install icecast2
 ```
 
+Durante la instalación nos saldrá una pantalla para configurar las contraseñas, le decimos que si y nos pedirá la contraseña para los recursos, el repetidor y la administración de Icecast 2, en este caso para esta práctica vamos a poner la misma para todos.
+
 ### Mixxx
 
 En otra máquina Ubuntu vamos a instalar la aplicación Mixxx.
