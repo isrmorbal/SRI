@@ -10,8 +10,9 @@
 
 - [Introducción](#introducción)
 - [Práctica: radio online](#práctica-radio-online)
-  - [Instalación Icecast 2](#instalación-icescast-2) 
-  - [VLC](#aplicación-vlc)
+  - [Icecast 2](#icescast-2)
+  - [Mixxx](#mixxx)
+  - [VLC](#vlc)
 - [Práctica vídeo](#práctica-vídeo)
 - [Anexo](#anexo)
 
@@ -21,7 +22,7 @@ Servicios de streaming son sistemas que permiten transmitir audio y vídeo por I
 
 ## Práctica: radio online
 
-### Instalación Icecast 2
+### Icecast 2
 
 Instalamos Icecast 2 en una máquina Ubuntu que hará de servidor.
 
@@ -31,6 +32,9 @@ Primero haremos un update para que el sistema actualice la lista de paquetes dis
 apt update
 apt install icecast2
 ```
+
+### Mixxx
+
 En otra máquina Ubuntu vamos a instalar la aplicación Mixxx.
 
 Para ello primero añadimos los repositorios, después hacemos un update para que el sistema actualice la lista de paquetes disponibles, y después instalamos la aplicación.
@@ -55,7 +59,7 @@ Ahora vamos a la máquina que hace de servidor, abrimos el navegador y escribimo
 
 <a name="paso-5"></a>
 
-### Aplicación VLC
+### VLC
 
 Y ahora vamos a hacerlo desde la aplicación VLC.
 
