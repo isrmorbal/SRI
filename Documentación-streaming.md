@@ -14,6 +14,7 @@
   - [Mixxx](#mixxx)
   - [VLC](#vlc)
 - [Práctica vídeo](#práctica-vídeo)
+- [Preguntas finales](#preguntas-finales)
 - [Anexo](#anexo)
 
 ## Introducción
