@@ -1,5 +1,9 @@
 # Fórmulas
 
+## Cálculo de Ancho de Banda
+
+BW(total) = BW(stream) x Nº(usuarios)
+
 ## Cálculo de peso
 
 Peso = Frecuencia x Bits x Canales x Segundos
