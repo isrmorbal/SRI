@@ -1,4 +1,3 @@
-
 # Índice
 ## 1. Descarga directa vs Streaming
 ## 2. Topología de red
@@ -7,18 +6,15 @@
 ## 5. Protocolos streaming
 ## 6. Icecast
 
-
 # Qué es
 ## Descarga directa vs Streaming
 
 - **Descarga Directa:** el usuario demanda un fichero con un peso de 100MB y 10 minutos de duración. Comienza la descarga. Se almacena en buffer y comienza la reproducción. El usuario termina la reproducción a los 2 minutos. El servidor ha entregado las 100MB.
 - **Streaming:** Datos enviados en flujo constante. No hay almacenamiento local permanente. Solo se consume el ancho de banda que el cliente ha utilizado (2 minutos según el ejemplo anterior).
 
-
-
 # Topología de red
 
-![alt text](imagenes/image.png)
+<p align="center"><img src="img/topologia-de-red.png"></p>
 
 - **Unicast:** conexión 1 a 1 (estándar de internet)
     - **Mecánica:** Si hay 100 oyentes, el servidor abre 100 sockets TCP y envía la información 100 veces.
@@ -115,7 +111,7 @@ Como hemos visto, la industria utiliza mucho más **TCP** que **UDP**.
 
 **Regla general:** Cuando se necesita interactuar con la otra parte, el delay no es admisible y, por tanto, se utiliza **UDP**.
 
-![alt text](/imagenes/image-1.png)
+<p align="center"><img src="img/curiosidad-juegos.png"></p>
 
 # Icecast 2
 
@@ -141,7 +137,7 @@ Icecast2 **NO genera el contenido**, solo lo distribuye. Por tanto, necesita de 
 4. **Verificación:**
    - Comprueba que el puerto **8000** esté abierto.
 
-   # Mixxx
+# Mixxx
 
 Para instalar el cliente de streaming Mixxx, utiliza los siguientes comandos:
 
@@ -188,7 +184,7 @@ El audio es una onda analógica. Para digitalizarla hay que muestrearla, algo as
 
 - **Estándar:** 44,1kHz.
 
-![alt text](/imagenes/image-2.png)
+<p align="center"><img src="img/graficos-1.png"></p>
 
 ## Profundidad de bits
 Si la frecuencia de muestreo eran las “fotos” que hacíamos a la onda, la profundidad es la calidad de dicha foto. 
@@ -197,12 +193,12 @@ Se trata de la cantidad de bits que se transmiten por segundo: a mayor cantidad,
 
 - **Estándar:** 16 bit (calidad CD)
 
-![alt text](/imagenes/image-3.png)
+<p align="center"><img src="img/graficos-2.png"></p>
 
 ## Canales
 Número de audios independientes que viajan en el mismo stream.
 
-![alt text](/imagenes/image-4.png)
+<p align="center"><img src="img/surround.png"></p>
 
 ## Códecs con pérdida / sin pérdida
 
@@ -276,7 +272,6 @@ Es un formato de fichero que sirve como "caja" para agrupar diferentes elementos
 * **Metadatos.**
 
 **Ejemplos de contenedores:** MP4, MKV, MOV, OGG.
-
 
 # Cálculo de peso (Vídeo)
 
@@ -367,7 +362,6 @@ Valores recomendados según la resolución y calidad deseada:
 * **Acción:** **Reducir el bitrate individual** de cada emisor.
 * **Explicación:** Si cada alumno ajusta su bitrate a **4 Mbps**, el consumo total será de $16$ Mbps ($4 \times 4$). Esto deja un margen de seguridad de 4 Mbps para que la red sea estable y todos puedan emitir sin cortes.
 
-
 # Práctica de Vídeo: Transcodificación y Simulación de Red
 
 ---
@@ -437,7 +431,7 @@ ffprobe -v error -show_streams fichero.mp4
 
 > **Respuesta:** El servidor soportaría **200 usuarios** simultáneos antes de alcanzar el límite del 80%.
 
-![alt text](/imagenes/image-6.png)
+<p align="center"><img src="img/cambio-unidades.png"></p>
 
 ### ¡No te confundas con las letras!
 
