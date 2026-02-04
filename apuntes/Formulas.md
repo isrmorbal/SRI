@@ -13,3 +13,7 @@ Peso = Frecuencia x Bits x Canales x Segundos
 Peso = (Ancho x Alto) x Profundidad de color x FPS x Tiempo
 
 Peso = Bitrate x Tiempo
+
+Si tienes un disco de 10 GB disponible, ¿cuántas horas de audio a 192 kbps puedes almacenar aproximadamente?
+
+Pasamos los 192 kbps a hora multiplicando por 3600, que nos da 691.200, despues lo pasamos a kiloBytes diviendo entre 8, nos dara 86.400 y ahora lo pasamos a GB diviediendo entre 1.000.000, nos dara 0.0864 ahora dividimos 10 entre ese numero y nos dara 115 aproximadamente.
